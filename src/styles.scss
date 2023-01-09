@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~bootstrap/dist/css/bootstrap.min.css';
+@import '~bootstrap/dist/css/bootstrap-utilities.min.css';
 @import '~font-awesome/css/font-awesome.min.css';
 h1,
 h2,
@@ -10,6 +11,13 @@ h5 {
     color: #1e1859;
     line-height: 1.25;
     font-weight: 700;
+}
+html{
+    overflow: auto;
+}
+body{
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 @media (min-width: 1200px) {

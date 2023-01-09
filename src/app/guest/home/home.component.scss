@@ -159,6 +159,7 @@
             padding: 45px 30px;
             margin-bottom: 30px;
             transition: all 0.2s linear;
+
             &:hover {
                 background: #fff;
                 box-shadow: 0px 20px 20px 0px rgb(40 25 114 / 10%);
@@ -179,5 +180,146 @@
                 }
             }
         }
+    }
+}
+
+.pricing-package {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 320px;
+    background: linear-gradient(to right, #2926ac 0%, #6128be 100%);
+    width: 100%;
+    height: 706px;
+    position: relative;
+    .col-md-4{
+        margin-bottom: 50px;
+    }
+    .lines{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+        .line1{
+            background-color: #fff;
+            width: 80px;
+            height: 1px;
+            position: relative;
+            margin-bottom: 10px;
+        }
+        .line2{
+            position: relative;
+            margin-left: 100px;
+        }
+    }
+
+    .text {
+        h2 {
+            text-align: center;
+            font-size: 36px;
+            color: #fff !important;
+        }
+    }
+
+    .packages {
+        position: relative;
+        transform: translateY(10%);
+        .normal {
+            &:hover {
+                cursor: pointer;
+                .buttonPart{
+                    .select {
+                        background-color: #1e1859;
+                        border-color: #1e1859;
+                        color: #fff !important;
+                    }
+                }
+            }
+
+            background-color: #fff;
+            border-radius: 3px;
+            background: #faf9ff;
+
+            .top {
+                padding: 40px 7px;
+                border-bottom: 1px solid #ebebeb;
+
+                .title {
+                    p {
+                        font-weight: 400;
+                        margin-bottom: 27px;
+                        color: #888;
+                        font-family: "Roboto", sans-serif;
+                        font-size: 15px;
+                        line-height: 1.8;
+                    }
+                }
+
+                .price {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    span {
+                        font-size: 40px !important;
+                        position: relative;
+                        bottom: -1px;
+                        margin-right: 3px !important;
+                        font-family: "Roboto", sans-serif;
+                        font-weight: 700;
+                        margin: 0;
+                        color: #1d2441;
+                    }
+
+                    h1 {
+                        font-size: 60px;
+                        font-family: "Roboto", sans-serif;
+                        font-weight: 700;
+                        margin: 0;
+                        color: #1d2441;
+                    }
+                }
+            }
+
+            .bottom {
+                padding: 30px 8px 25px 8px;
+                border-bottom: 1px solid #ebebeb;
+
+                .feat {
+                    p {
+                        color: #888;
+                        font-family: "Roboto", sans-serif;
+                        font-size: 15px;
+                        font-weight: 300;
+                        line-height: 1.8;
+                        margin-bottom: 12px !important;
+                    }
+                }
+            }
+
+            .buttonPart {
+                padding: 45px 0;
+
+                .select {
+                    background: transparent;
+                    border: 1px solid #dbd9e6 !important;
+                    color: #1e1859 !important;
+                    border: 0;
+                    display: inline-block;
+                    color: #fff;
+                    font-size: 15px;
+                    font-weight: 500;
+                    border-radius: 30px;
+                    padding: 12px 45px;
+                    transition: all 0.3s ease 0s;
+
+                    &:hover {
+                        background-color: #1e1859;
+                        border-color: #1e1859;
+                        color: #fff !important;
+                    }
+                }
+            }
+        }
+
     }
 }
