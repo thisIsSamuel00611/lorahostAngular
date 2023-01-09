@@ -77,6 +77,9 @@
     .options {
         margin: 20px 0 15px;
         display: flex;
+        @media(max-width: 720px){
+            display: block;
+        }
 
         input {
             cursor: pointer;
@@ -117,7 +120,6 @@
 
 .trusted {
     margin-bottom: 70px !important;
-
     .text {
         h3 {
             font-size: 27px;
@@ -191,6 +193,9 @@
     width: 100%;
     height: 706px;
     position: relative;
+    @media(max-width:720px){
+        height: auto;
+    }
     .col-md-4{
         margin-bottom: 50px;
     }
@@ -321,5 +326,82 @@
             }
         }
 
+    }
+}
+
+.high-quality{
+    .lines{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+        .line1{
+            background-color: #1e1859;
+            width: 80px;
+            height: 1px;
+            position: relative;
+            margin-bottom: 10px;
+        }
+        .line2{
+            position: relative;
+            margin-left: 100px;
+        }
+    }
+
+    .text {
+        h2 {
+            text-align: center;
+            font-size: 36px;
+            color: #1e1859 !important;
+        }
+    }
+    .first {
+        padding: 30px 0;
+        margin-bottom: 30px;
+
+        .text1 {
+            h3 {
+                font-size: 36px !important;
+                font-family: "Lato", sans-serif;
+                color: #1e1859;
+                line-height: 1.25;
+                font-weight: 700 !important;
+                margin-bottom: 25px !important;
+            }
+
+            p {
+                color: #888;
+                font-family: "Roboto", sans-serif;
+                font-size: 15px;
+                font-weight: 300;
+                line-height: 1.8;
+            }
+        }
+    }
+
+    .second {
+        padding: 45px 30px;
+        margin-bottom: 30px;
+        transition: all 0.2s linear;
+
+        &:hover {
+            background: #fff;
+            box-shadow: 0px 20px 20px 0px rgb(40 25 114 / 10%);
+            transition: all 0.2s linear;
+        }
+
+        .img {
+            margin-bottom: 30px !important;
+        }
+
+        .text {
+            p {
+                color: #888;
+                font-family: "Roboto", sans-serif;
+                font-size: 15px;
+                font-weight: 300;
+                line-height: 1.8;
+            }
+        }
     }
 }
