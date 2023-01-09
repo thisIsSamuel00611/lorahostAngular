@@ -12,6 +12,7 @@
     justify-content: center;
     color: #fff;
     background: linear-gradient(to right, #2926ac 0%, #6128be 100%);
+
     .text {
         h6 {
             font-size: 15px;
@@ -20,11 +21,13 @@
             line-height: 1.8;
             text-transform: uppercase;
         }
+
         h1 {
             color: #fff;
             font-size: 55px;
             margin-bottom: 40px;
         }
+
         p {
             font-size: 15px;
             margin-bottom: 16px;
@@ -32,6 +35,7 @@
             line-height: 1.8;
             margin-bottom: 38px;
         }
+
         .getStarted {
             border: 1px solid #fff;
             background: transparent;
@@ -42,6 +46,7 @@
             border-radius: 30px;
             padding: 12px 45px;
             transition: all 0.3s ease 0s;
+
             &:hover {
                 background-color: #1e1859;
                 border-color: #1e1859;
@@ -53,6 +58,8 @@
 
 .domainSec {
     padding: 50px 0;
+    background-color: #f9f9ff;
+
     .input {
         input {
             height: 60px;
@@ -66,20 +73,34 @@
             border-color: #dbd9e6;
         }
     }
-    .options{
-        margin: 10px 0;
+
+    .options {
+        margin: 20px 0 15px;
         display: flex;
-        .com{
+
+        input {
+            cursor: pointer;
+        }
+
+        label {
+            cursor: pointer;
+        }
+
+        .com {
             margin-right: 10px;
-            &>:first-child{
+
+            &>:first-child {
                 margin-right: 7px;
             }
-            .price{
+
+            .price {
                 margin-left: 7px;
                 margin-bottom: 0;
+                color: #999999;
             }
         }
     }
+
     .searchDomain {
         padding: 15px 62px;
         height: 60px;
@@ -91,5 +112,72 @@
         transition: all 0.3s ease 0s;
         background: linear-gradient(to right, #2926ac 0%, #6128be 100%);
         border: none;
+    }
+}
+
+.trusted {
+    margin-bottom: 70px !important;
+
+    .text {
+        h3 {
+            font-size: 27px;
+            color: #888888;
+            font-weight: 300;
+            text-align: center;
+            margin-bottom: 8px;
+        }
+    }
+}
+
+.features {
+    .top {
+        .first {
+            padding: 30px 0;
+            margin-bottom: 30px;
+
+            .text1 {
+                h3 {
+                    font-size: 36px !important;
+                    font-family: "Lato", sans-serif;
+                    color: #1e1859;
+                    line-height: 1.25;
+                    font-weight: 700 !important;
+                    margin-bottom: 25px !important;
+                }
+
+                p {
+                    color: #888;
+                    font-family: "Roboto", sans-serif;
+                    font-size: 15px;
+                    font-weight: 300;
+                    line-height: 1.8;
+                }
+            }
+        }
+
+        .second {
+            padding: 45px 30px;
+            margin-bottom: 30px;
+            transition: all 0.2s linear;
+            &:hover {
+                background: #fff;
+                box-shadow: 0px 20px 20px 0px rgb(40 25 114 / 10%);
+                transition: all 0.2s linear;
+            }
+
+            .img {
+                margin-bottom: 30px !important;
+            }
+
+            .text {
+                p {
+                    color: #888;
+                    font-family: "Roboto", sans-serif;
+                    font-size: 15px;
+                    font-weight: 300;
+                    line-height: 1.8;
+                }
+            }
+        }
     }
 }
