@@ -51,5 +51,37 @@ export class HomeComponent implements OnInit {
     // nav: true,
     
   }
+  
+  customOptions2: OwlOptions = {
+    loop: false,
+    mouseDrag: true,
+    touchDrag: true,
+    pullDrag: true,
+    dots: true,
+    freeDrag: true,
+    navSpeed: 600,
+    navText: ['', ''],
+    slideBy: 2,
+    margin: 30,
+    responsive: {
+      0: {
+        items: 1
+      },
+      400: {
+        items: 3
+      },
+      740: {
+        items: 4
+      },
+      940: {
+        items: 6
+      }
+    },
+    nav: true,
+    
+  }
+  
+  displayMenu() {
+    alert('Check the menu!')
+  }
 }
-
