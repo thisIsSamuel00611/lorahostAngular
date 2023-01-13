@@ -31,7 +31,6 @@ export class HomeComponent implements OnInit {
     dots: false,
     freeDrag: true,
     navSpeed: 600,
-    margin: 70,
     navText: ['', ''],
     slideBy: 2,
     responsive: {
@@ -58,17 +57,17 @@ export class HomeComponent implements OnInit {
     touchDrag: true,
     pullDrag: true,
     dots: true,
-    freeDrag: true,
+    // freeDrag: true,
+    margin: 30,
     navSpeed: 600,
     navText: ['', ''],
     slideBy: 2,
-    margin: 30,
     responsive: {
       0: {
         items: 1
       },
       400: {
-        items: 3
+        items: 2
       },
       740: {
         items: 4
@@ -77,7 +76,7 @@ export class HomeComponent implements OnInit {
         items: 6
       }
     },
-    nav: true,
+    // nav: true,
     
   }
   
