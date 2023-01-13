@@ -19,7 +19,7 @@ export class TrustedCarouselComponent {
     navText: ['', ''],
     responsive: {
       0: {
-        items: 1 
+        items: 1
       },
       400: {
         items: 2
@@ -28,7 +28,7 @@ export class TrustedCarouselComponent {
         items: 3
       },
       940: {
-        items: 4
+        items: 5
       }
     },
     // nav: true,

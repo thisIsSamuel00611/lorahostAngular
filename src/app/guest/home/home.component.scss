@@ -140,7 +140,7 @@ header {
 .trusted {
     margin-bottom: 70px !important;
     .brandlogos{
-        @media(max-width: 575px){
+        @media(max-width: 979px){
             display: none;
         }
     }
@@ -162,6 +162,9 @@ header {
         display: flex;
         justify-content: center;
     }
+}
+.container-trusted{
+    width: 100%;
 }
 
 .features {

@@ -107,8 +107,28 @@
             </div>
         </div>
     </div>
+</section>
+<section class="partners">
     <div class="container">
-        <app-trusted-carousel></app-trusted-carousel>
+        <div class="containers">
+            <owl-carousel-o [options]="customOptions">
+                <ng-template carouselSlide>
+                    <img src="assets/images/brand-logo1.png" alt="partner">
+                </ng-template>
+                <ng-template carouselSlide>
+                    <img src="assets/images/brand-logo2.png" alt="partner">
+                </ng-template>
+                <ng-template carouselSlide>
+                    <img src="assets/images/brand-logo3.png" alt="partner">
+                </ng-template>
+                <ng-template carouselSlide>
+                    <img src="assets/images/brand-logo4.png" alt="partner">
+                </ng-template>
+                <ng-template carouselSlide>
+                    <img src="assets/images/brand-logo5.png" alt="partner">
+                </ng-template>
+            </owl-carousel-o>
+        </div>
     </div>
 </section>
 <section class="features">
@@ -373,7 +393,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="col-md-4 mb-3">
                 <div class="second">
                     <div class="img d-flex justify-content-center align-items-center mb-4">

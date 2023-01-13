@@ -24,9 +24,15 @@ body{
     display: flex !important;
     overflow: auto;
 }
+.owl-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 @media (min-width: 1200px) {
     .container {
         max-width: 1140px !important;
+        width: 100%;
     }
 }
