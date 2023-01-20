@@ -61,7 +61,7 @@ export class HomeComponent implements OnInit {
     margin: 30,
     navSpeed: 600,
     navText: ['', ''],
-    slideBy: 2,
+    slideBy: 1,
     responsive: {
       0: {
         items: 1
