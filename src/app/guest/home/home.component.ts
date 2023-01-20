@@ -70,10 +70,10 @@ export class HomeComponent implements OnInit {
         items: 2
       },
       740: {
-        items: 4
+        items: 3
       },
       940: {
-        items: 6
+        items: 4
       }
     },
     // nav: true,
